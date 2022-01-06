@@ -104,9 +104,11 @@ margin-bottom: 30px;
 /* PROGRAMS */
 
 #programs {
+  margin-top: 90px;
   padding-top: 90px;
   text-align: center;
   font-family: 'Oswald';
+  padding-bottom: 90px;
 }
 
 .rojo {
@@ -148,9 +150,9 @@ margin-bottom: 30px;
 
 .contenedor-programs {
   display: flex;
-  margin-top: 50px;
-  width: 88%;
   margin: auto;
+  margin-top: 50px;
+  width: 90%;
 }
 
 #programs #uno {
@@ -198,6 +200,7 @@ h3 {
 
 #section-video .contenedor {
   position: relative;
+  margin-bottom: 50px;
 }
 
 #section-video .botones {
@@ -220,7 +223,7 @@ h3 {
 
 #join {
   display: flex;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 #join .izquierda {
@@ -279,6 +282,7 @@ h3 {
 
 #testimonials {
   padding-top: 90px;
+  padding-bottom: 90px;
   text-align: center;
 }
 
@@ -445,7 +449,7 @@ input[type="submit"] {
 
   nav {
     position: absolute;
-    top: 15%;
+    top: 89px;
     left: 0;
     width: 100%;
     background: #000;
@@ -526,8 +530,9 @@ nav ul li a {
 }
 
 #video {
-  width: 342px;
-      height: 298px;
+  height: 298px;
+  width: 100%;
+  max-width: 342px;
 }
 
 #section-video i {
